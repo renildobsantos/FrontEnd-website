@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    padding: 1rem;
+    border-bottom: 1px solid rgb(173, 170, 170);
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h2{
+    font-size: 25px;
+    color: #280a96;
+}
+
+.menu {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 14px;
+    align-items: center;
+    color: blue;  
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+
+.menu a:hover{
+    color: salmon;
+}
+
+.menu .btn-menu {
+    background-color: blue;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.menu .btn-menu:hover{
+    background-color:cornflowerblue;
+}
+
+/* SECTION */
+
+section.main {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+}
+
+.container{
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+}
+
+.texto-principal{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.texto-principal h2{
+    color: blue;
+    font-size: 40px;
+}
+
+.texto-principal p{
+    margin: 10px 0;
+}
+
+button{
+    padding: 4px 16px;
+    background-color: blue;
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.texto-secundario{
+    display: flex;
+    text-align: center;
+    gap: 14px;
+    margin-top: 60px;
+}
+
+.texto-item {
+    border: 1px solid #9c9a9a;
+    border-radius: 10px;
+    padding: 5px;
+    height: 200px;
+    min-width: 150px;
+    box-shadow: 2px 2px 2px #9c9a9a;
+    transition: .5s;
+}
+
+.texto-item:hover {
+    scale: 1.1;
+}
+
+.texto-item p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+}
+
+.rodape h2{
+    font-size: 14px;
+    color: #9c9a9a;
+}
